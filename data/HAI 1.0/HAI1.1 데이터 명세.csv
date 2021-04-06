@@ -1,0 +1,66 @@
+﻿No,Point Name,Range,Unit,Description
+1,P1_B2004,0 ~ 10,Bar,Heat-exchanger outlet pressure setpoint
+2,P1_B2016,0 ~ 10,bar,"Pressure demand  to  follow  P1_B2004  and  electrical  load  from
+steam turbine model"
+3,P1_B3004,0 ~ 720,mm,Water level setpoint in return water tank
+4,P1_B3005,"0 ~ 2,500",L/H,Water outflow  rate setpoint from return water tank
+5,P1_B4002,0 ~ 100,℃,Heat-exchanger outlet temperature setpoint
+6,P1_B4005,0 ~ 100,-,"Temperature cascade control (On: 1, Off: 0)"
+7,P1_B400B,"0 ~ 3,000",L/H,Water outflow  rate setpoint from heating water tank
+8,P1_B4022,0 ~ 100,℃,"Temperature demand to follow P1. B4005 and electrical load from
+steam-turbine model"
+9,P1_FCV01D,0 ~ 100,%,Position command for FCV01 valve
+10,P1_FCV01Z,0 ~ 100,%,Current position of FCV01 valve
+11,P1_FCV02D,0 ~ 100,%,Position command for FCV02 valve
+12,P1_FCV02Z,0 ~ 100,%,Current position of FCV02 valve
+13,P1_FCV03D,0 ~ 100,%,Position command for FCV03 valve
+14,P1_FCV03Z,0 ~ 100,%,Current position of FCV03 valve
+15,P1_FT01,0 ~ 2500,mmH2O,Digital value of FT01 flow transmitter
+16,P1_FT01Z,0 ~ 3190,L/H,Water inflow rate into return water tank
+17,P1_FT02,0 ~ 2500,mmH2O,Digital value of FT02 flow transmitter
+18,P1_FT02Z,0 ~ 3190,L/H,Conversion from P1_FT02 to outflow  rate at heating water tank
+19,P1_FT03,0 ~ 2500,mmH2O,Digital value of FT03 flow transmitter
+20,P1_FT03Z,0 ~ 3190,L/H,Conversion from P1_FT03 to outflow  rate at return water tank
+21,P1_LCV01D,0 ~ 100,%,Position command for LCV01 valve
+22,P1_LCV01Z,0 ~ 100,%,Current position of LCV01 valve
+23,P1_LIT01,0 ~ 720,,Water level of return water tank
+24,P1_PCV01D,0 ~ 100,%,Position command for PCV01 valve
+25,P1_PCV01Z,0 ~ 100,%,Current position of PCV01 valve
+26,P1_PCV02D,0 ~ 100,%,Position command for PCV2 valve
+27,P1_PCV02Z,0 ~ 100,%,Current position of PCV02 valve
+28,P1_PIT01,0 ~ 10,bar,Heat-exchanger outlet pressure
+29,P1_PIT02,0 ~ 10,bar,Water supply pressure of heating water pump
+30,P1_TIT01,-10 ~ 100,℃,Heat-exchanger outlet temperature
+31,P1_TIT02,-10 ~ 100,℃,Temperature of heating water tank
+32,P2_SIT01,0 ~ 3600,RPM,Current motor speed
+33,P2_SD01,0 ~ 3600,RPM,User speed demand
+34,P2_VT01,0 ~ 15,V,Phase lag signal of key phasor probe near motor
+35,P2_VYT02,-10 ~ 10,µm,"Shaft-vibration-related  Y-axis displacement  near  the  first  mass
+wheel"
+36,P2_VXT02,-10 ~ 10,µm,"Shaft-vibration-related  X-axis  displacement  near  the  first  mass
+wheel"
+37,P2_VYT03,-10 ~ 10,µm,"Shaft-vibration-related Y-axis displacement near the second mass
+wheel"
+38,P2_VXT03,-10 ~ 10,µm,"Shaft-vibration-related X-axis displacement near the second mass
+wheel"
+39,P2_24Vdc,0 ~ 30,V,DCS power supply
+40,P2_Auto,0 or 1,-,System auto/manual  mode
+41,P2_Emgy,0 or 1,-,Emergency-stop input
+42,P2_On,0 or 1,-,System on/off input
+43,P2_TripEx,0 or 1,-,Trip exit input
+44,P3_LT01,0 ~ 100,%,Water level in upper tank
+45,P3_LH01,0 ~ 100,%,High water level setpoint
+46,P3_LL01,0 ~ 100,%,Low water level setpoint
+47,P3_LCP01D,0 ~ 27648,-,Speed command for feed water pump
+48,P3_LCV01D,0 ~ 27648,-,Position command for LCV01 valve
+49,P4_LD,0 ~ 600,MW,Total electrical load demand
+50,P4_ST_FD,-0.1 ~ 0.1,mHz,Frequency deviation of steam-turbine model
+51,P4_ST_PO,0 ~ 500,MW,Output power of steam-turbine model
+52,P4_ST_PT01,0 ~ 27648,-,Digital value of steam pressure in steam-turbine model
+53,P4_ST_TT01,0 ~ 27648,-,Digital value of steam temperature in steam-turbine  model
+54,P4_ST_LD,0 ~ 500,MW,Electrical load demand for steam-turbine model
+55,P4_ST_PS,0 ~ 500,MW,Scheduled power demand of steam-turbine model
+56,P4_HT_FD,-0.1 ~ 0.1,mHz,Frequency deviation of hydropower-turbine model
+57,P4_HT_PO,0 ~ 100,MW,Output power of hydropower-turbine model
+58,P4_HT_LD,0 ~ 100,MW,Electrical load demand for steam-turbine model
+59,P4_HT_PS,0 ~ 100,MW,Scheduled power demand of hydropower-turbine model
