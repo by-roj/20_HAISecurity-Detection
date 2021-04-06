@@ -34,5 +34,5 @@ HAICon 2020 - 국내 최초로 산업제어시스템 보안연구를 위해 만�
   - LSTM
   - CNN
   - AutoEncoder
-  - Threshold ✔
+  - Dynamic Threshold ✔
 
